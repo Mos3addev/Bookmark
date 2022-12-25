@@ -1,0 +1,20 @@
+:root
+{
+    --main-color: rgb(238, 238, 238);
+}
+.text-main
+{
+    color: var(--main-color);
+}
+
+body 
+{
+    font-family: 'segoe ui light';
+}
+* {
+    font-family: arial;
+}
+
+.background{
+    background-color: var(--main-color);
+}
