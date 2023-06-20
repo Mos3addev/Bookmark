@@ -61,7 +61,7 @@ function SearchProducts(productNameSearch) {
     <div class="col-lg-5 d-flex justify-content-between">
       <h3 class="fw-bold">${productContainer[i].name}</h3>
       <div>
-        <a class="btn me-lg-3 me-md-3 mb-lg-2  btn-primary" href="https:\\${productContainer[i].url}.com" target="_blank">Visit</a>
+        <a class="btn me-lg-3 me-md-3 mb-lg-2  btn-primary" href="https:\\${productContainer[i].url}" target="_blank">Visit</a>
         <button onclick="deleteProduct(${i});" class="btn me-lg-3 me-md-3 mb-lg-2  btn-outline-danger">Delete</button>
         <button onclick="setValueInForm(${i})" class="btn me-lg-3 me-md-3 mb-lg-2  btn-outline-primary">Update</button>
         </div>
